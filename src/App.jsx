@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage/index.jsx";
 import DashboardPage from "./components/DashboardPage/index.jsx";
 import ResponsiveToolbar from "./components/Toolbar/index.jsx";
 import LoginPage from "./components/Authentication/index.jsx";
+import CameraPage from "./components/Camera/index.jsx";
 
 const theme = createTheme({
   palette: {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <DashboardPage />,
+      },
+      {
+        path: "camera",
+        element: <CameraPage />,
       },
     ],
   },

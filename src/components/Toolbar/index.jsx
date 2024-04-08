@@ -115,6 +115,12 @@ export default function ResponsiveToolbar() {
                   Dashboard
                 </Typography>
               </Link>
+              <Link to="camera" style={{ textDecoration: "none"}}>
+                <Typography
+                  sx={{ color: "white", textDecoration: "none", mr: "20px"}}>
+                  Camera
+                </Typography>
+              </Link>
             </Toolbar>
           </Container>
         </Container>
